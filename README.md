@@ -10,6 +10,7 @@ This repository contains my data structures and algorithms practice solutions, o
   - `Stack /`
 - `arrays/`
 - `binary-search/`
+- `binary-trees/`
 - `dp/`
 - `strings/`
 
@@ -18,10 +19,16 @@ This repository contains my data structures and algorithms practice solutions, o
 ### Arrays
 
 - `lc_2069_walking_robot_simulation_II.py` - LeetCode 2069, Walking Robot Simulation II
+- `lc_2574_left_and_right_sum_differences.py` - LeetCode 2574, Left and Right Sum Differences
+- `lc_3689_maximum_total_subarray_value_I.py` - LeetCode 3689, Maximum Total Subarray Value I
 
 ### Binary Search
 
 - `lc_154_rotated_sorted_arrayII.py` - LeetCode 154, Find Minimum in Rotated Sorted Array II
+
+### Binary Trees
+
+- `lc_2196_create_binary_trees_from_description.py` - LeetCode 2196, Create Binary Tree From Descriptions
 
 ### Strings
 
