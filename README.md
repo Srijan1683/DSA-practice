@@ -33,6 +33,7 @@ This repository contains my data structures and algorithms practice solutions, o
 ### Strings
 
 - `lc_3751_total_waviness_of_numbers_in_range_I.py` - LeetCode 3751, Total Waviness of Numbers in Range I
+- `lc_3612_process_string_with_special_operations_I.py` - LeetCode 3612, Process String with Special Operations I
 
 ### DSA Quest
 
