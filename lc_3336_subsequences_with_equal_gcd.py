@@ -1,5 +1,8 @@
 """3336. Find the number of subsequences with equal gcd"""
 
+"""Problem: https://leetcode.com/problems/find-the-number-of-subsequences-with-equal-gcd/"""
+
+from collections import defaultdict
 class Solution(object):
     def subsequencePairCount(self, nums):
         """
