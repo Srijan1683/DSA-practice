@@ -54,6 +54,7 @@ The repository is organized by topic so related patterns are easy to review toge
 | File | Problem |
 | --- | --- |
 | `strings/lc_3014_minimum_number_of_pushes_to_type_word_I.py` | LeetCode 3014: Minimum Number of Pushes to Type Word I |
+| `strings/lc_3090_maximum_length_substring.py` | LeetCode 3090: Maximum Length Substring with Two Occurrences |
 | `strings/lc_3345_smallest_divisible_digit_product_I.py` | LeetCode 3345: Smallest Divisible Digit Product I |
 | `strings/lc_3517_smallest_palindromic_rearrangement_I.py` | LeetCode 3517: Smallest Palindromic Rearrangement I |
 | `strings/lc_3612_process_string_with_special_operations.py` | LeetCode 3612: Process String with Special Operations I |
