@@ -34,6 +34,7 @@ The repository is organized by topic so related patterns are easy to review toge
 | `arrays/lc_1979_greatest_common_divisor_of_array.py` | LeetCode 1979: Find Greatest Common Divisor of Array |
 | `arrays/lc_2069_walking_robot_simulation_II.py` | LeetCode 2069: Walking Robot Simulation II |
 | `arrays/lc_2574_left_and_right_sum_differences.py` | LeetCode 2574: Left and Right Sum Differences |
+| `arrays/lc_3069_distribute_elements_into_two_arrays_I.py` | LeetCode 3069: Distribute Elements Into Two Arrays I |
 | `arrays/lc_3689_maximum_total_subarray_value_I.py` | LeetCode 3689: Maximum Total Subarray Value I |
 | `arrays/lc_3731_find_missing_elements.py` | LeetCode 3731: Find Missing Elements |
 
@@ -66,6 +67,7 @@ The repository is organized by topic so related patterns are easy to review toge
 | --- | --- |
 | `lc_1288_remove_covered_intervals.py` | LeetCode 1288: Remove Covered Intervals |
 | `lc_3336_subsequences_with_equal_gcd.py` | LeetCode 3336: Find the Number of Subsequences With Equal GCD |
+| `lc_3622_check_divisibility_by_digit_sum_and_product.py` | LeetCode 3622: Check Divisibility by Digit Sum and Product |
 | `lc_3754_concatenate_non_zero_digits_and_multiply_by_sum_I.py` | LeetCode 3754: Concatenate Non-Zero Digits and Multiply by Sum I |
 | `lc_3756_concatenate_non_zero_digits_and_multiply_by_sum_II.py` | LeetCode 3756: Concatenate Non-Zero Digits and Multiply by Sum II |
 
