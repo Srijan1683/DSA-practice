@@ -7,13 +7,63 @@ The repository is organized by topic so related patterns are easy to review toge
 
 ```text
 .
-├── arrays/          # Array, backtracking, game DP, and math-style problems
-├── binary-search/   # Binary search patterns
-├── binary-trees/    # Tree construction and traversal problems
-├── dp/              # Dynamic programming practice area
-├── strings/         # String processing and digit/string manipulation
-├── DSA quest/       # Numbered practice-set questions
-└── lc_*.py          # Miscellaneous LeetCode solutions not yet grouped by topic
+├── arrays/
+│   ├── lc_1_two_sum.py
+│   ├── lc_39_combination_sum.py
+│   ├── lc_46_permutations.py
+│   ├── lc_78_subsets.py
+│   ├── lc_877_stone_game.py
+│   ├── lc_1140_stone_game_II.py
+│   ├── lc_1291_sequential_digits.py
+│   ├── lc_1331_rank_transform_of_an_array.py
+│   ├── lc_1406_stone_game_III.py
+│   ├── lc_1464_maximum_product_of_two_elements_in_an_array.py
+│   ├── lc_1510_stone_game_IV.py
+│   ├── lc_1979_greatest_common_divisor_of_array.py
+│   ├── lc_2069_walking_robot_simulation_II.py
+│   ├── lc_2091_removing_minimum_and_maximum.py
+│   ├── lc_2574_left_and_right_sum_differences.py
+│   ├── lc_2948_make_lexicographically_smallest_array_by_swapping_elements.py
+│   ├── lc_3069_distribute_elements_into_two_arrays_I.py
+│   ├── lc_3689_maximum_total_subarray_value_I.py
+│   ├── lc_3731_find_missing_elements.py
+│   ├── lc_3903_smallest_stable_index_I.py
+│   └── lc_3904_smallest_stable_index_II.py
+├── binary-search/
+│   └── lc_154_rotated_sorted_arrayII.py
+├── binary-trees/
+│   └── lc_2196_create_binary_trees_from_description.py
+├── DSA quest/
+│   ├── Array I/
+│   │   ├── Q1.py
+│   │   ├── Q2.py
+│   │   └── Q3.py
+│   ├── Array II/
+│   │   ├── Q1.py
+│   │   ├── Q2.py
+│   │   └── Q3.py
+│   ├── Monotonic Stack I/
+│   │   └── Q1.py
+│   └── Stack /
+│       ├── Q1.py
+│       ├── Q2.py
+│       └── Q3.py
+├── strings/
+│   ├── lc_32_longest_valid_parentheses.py
+│   ├── lc_3014_minimum_number_of_pushes_to_type_word_I.py
+│   ├── lc_3090_maximum_length_substring.py
+│   ├── lc_3345_smallest_divisible_digit_product_I.py
+│   ├── lc_3517_smallest_palindromic_rearrangement_I.py
+│   ├── lc_3612_process_string_with_special_operations.py
+│   └── lc_3751_total_waviness_of_numbers_in_range_I.py
+├── lc_1288_remove_covered_intervals.py
+├── lc_3336_subsequences_with_equal_gcd.py
+├── lc_3622_check_divisibility_by_digit_sum_and_product.py
+├── lc_3754_concatenate_non_zero_digits_and_multiply_by_sum_I.py
+├── lc_3756_concatenate_non_zero_digits_and_multiply_by_sum_II.py
+├── lc_3870_count_commas_in_range_I.py
+├── lc_3871_count_commas_in_range_II.py
+└── practice.ipynb
 ```
 
 ## Solved Problems
