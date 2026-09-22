@@ -18,6 +18,7 @@ The repository is organized by topic so related patterns are easy to review toge
 │   ├── lc_1331_rank_transform_of_an_array.py
 │   ├── lc_1406_stone_game_III.py
 │   ├── lc_1464_maximum_product_of_two_elements_in_an_array.py
+│   ├── lc_1477_find_two_non_overlapping_sub_arrays_each_with_target_sum.py
 │   ├── lc_1510_stone_game_IV.py
 │   ├── lc_1979_greatest_common_divisor_of_array.py
 │   ├── lc_2069_walking_robot_simulation_II.py
@@ -26,6 +27,7 @@ The repository is organized by topic so related patterns are easy to review toge
 │   ├── lc_2948_make_lexicographically_smallest_array_by_swapping_elements.py
 │   ├── lc_3069_distribute_elements_into_two_arrays_I.py
 │   ├── lc_3483_unique-3-digit-even-numbers.py
+│   ├── lc_3524_find_x_value_of_array_I.py
 │   ├── lc_3689_maximum_total_subarray_value_I.py
 │   ├── lc_3731_find_missing_elements.py
 │   ├── lc_3903_smallest_stable_index_I.py
@@ -52,13 +54,18 @@ The repository is organized by topic so related patterns are easy to review toge
 │       └── Q3.py
 ├── strings/
 │   ├── lc_32_longest_valid_parentheses.py
+│   ├── lc_1520_maximum_number_of_non_overlapping_substrings.py
 │   ├── lc_3014_minimum_number_of_pushes_to_type_word_I.py
 │   ├── lc_3090_maximum_length_substring.py
 │   ├── lc_3345_smallest_divisible_digit_product_I.py
+│   ├── lc_3498_reverse_degree_of_a_string.py
 │   ├── lc_3517_smallest_palindromic_rearrangement_I.py
 │   ├── lc_3612_process_string_with_special_operations.py
 │   └── lc_3751_total_waviness_of_numbers_in_range_I.py
+├── lc_836_rectangle_overlap.py
 ├── lc_1288_remove_covered_intervals.py
+├── lc_1401_circles_and_rectangles_overlapping.py
+├── lc_1621_number_of_sets_of_k_overlapping_line_segments.py
 ├── lc_3336_subsequences_with_equal_gcd.py
 ├── lc_3622_check_divisibility_by_digit_sum_and_product.py
 ├── lc_3754_concatenate_non_zero_digits_and_multiply_by_sum_I.py
@@ -84,6 +91,7 @@ The repository is organized by topic so related patterns are easy to review toge
 | `arrays/lc_1331_rank_transform_of_an_array.py` | LeetCode 1331: Rank Transform of an Array |
 | `arrays/lc_1406_stone_game_III.py` | LeetCode 1406: Stone Game III |
 | `arrays/lc_1464_maximum_product_of_two_elements_in_an_array.py` | LeetCode 1464: Maximum Product of Two Elements in an Array |
+| `arrays/lc_1477_find_two_non_overlapping_sub_arrays_each_with_target_sum.py` | LeetCode 1477: Find Two Non-overlapping Sub-arrays Each With Target Sum |
 | `arrays/lc_1510_stone_game_IV.py` | LeetCode 1510: Stone Game IV |
 | `arrays/lc_1979_greatest_common_divisor_of_array.py` | LeetCode 1979: Find Greatest Common Divisor of Array |
 | `arrays/lc_2069_walking_robot_simulation_II.py` | LeetCode 2069: Walking Robot Simulation II |
@@ -92,6 +100,7 @@ The repository is organized by topic so related patterns are easy to review toge
 | `arrays/lc_2948_make_lexicographically_smallest_array_by_swapping_elements.py` | LeetCode 2948: Make Lexicographically Smallest Array by Swapping Elements |
 | `arrays/lc_3069_distribute_elements_into_two_arrays_I.py` | LeetCode 3069: Distribute Elements Into Two Arrays I |
 | `arrays/lc_3483_unique-3-digit-even-numbers.py` | LeetCode 3483: Unique 3-Digit Even Numbers |
+| `arrays/lc_3524_find_x_value_of_array_I.py` | LeetCode 3524: Find X Value of Array I |
 | `arrays/lc_3689_maximum_total_subarray_value_I.py` | LeetCode 3689: Maximum Total Subarray Value I |
 | `arrays/lc_3731_find_missing_elements.py` | LeetCode 3731: Find Missing Elements |
 | `arrays/lc_3903_smallest_stable_index_I.py` | LeetCode 3903: Smallest Stable Index I |
@@ -115,9 +124,11 @@ The repository is organized by topic so related patterns are easy to review toge
 | File | Problem |
 | --- | --- |
 | `strings/lc_32_longest_valid_parentheses.py` | LeetCode 32: Longest Valid Parentheses |
+| `strings/lc_1520_maximum_number_of_non_overlapping_substrings.py` | LeetCode 1520: Maximum Number of Non-Overlapping Substrings |
 | `strings/lc_3014_minimum_number_of_pushes_to_type_word_I.py` | LeetCode 3014: Minimum Number of Pushes to Type Word I |
 | `strings/lc_3090_maximum_length_substring.py` | LeetCode 3090: Maximum Length Substring with Two Occurrences |
 | `strings/lc_3345_smallest_divisible_digit_product_I.py` | LeetCode 3345: Smallest Divisible Digit Product I |
+| `strings/lc_3498_reverse_degree_of_a_string.py` | LeetCode 3498: Reverse Degree of a String |
 | `strings/lc_3517_smallest_palindromic_rearrangement_I.py` | LeetCode 3517: Smallest Palindromic Rearrangement I |
 | `strings/lc_3612_process_string_with_special_operations.py` | LeetCode 3612: Process String with Special Operations I |
 | `strings/lc_3751_total_waviness_of_numbers_in_range_I.py` | LeetCode 3751: Total Waviness of Numbers in Range I |
@@ -126,7 +137,10 @@ The repository is organized by topic so related patterns are easy to review toge
 
 | File | Problem |
 | --- | --- |
+| `lc_836_rectangle_overlap.py` | LeetCode 836: Rectangle Overlap |
 | `lc_1288_remove_covered_intervals.py` | LeetCode 1288: Remove Covered Intervals |
+| `lc_1401_circles_and_rectangles_overlapping.py` | LeetCode 1401: Circle and Rectangle Overlapping |
+| `lc_1621_number_of_sets_of_k_overlapping_line_segments.py` | LeetCode 1621: Number of Sets of K Non-Overlapping Line Segments |
 | `lc_3336_subsequences_with_equal_gcd.py` | LeetCode 3336: Find the Number of Subsequences With Equal GCD |
 | `lc_3622_check_divisibility_by_digit_sum_and_product.py` | LeetCode 3622: Check Divisibility by Digit Sum and Product |
 | `lc_3754_concatenate_non_zero_digits_and_multiply_by_sum_I.py` | LeetCode 3754: Concatenate Non-Zero Digits and Multiply by Sum I |
