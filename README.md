@@ -20,6 +20,7 @@ The repository is organized by topic so related patterns are easy to review toge
 │   ├── lc_1464_maximum_product_of_two_elements_in_an_array.py
 │   ├── lc_1477_find_two_non_overlapping_sub_arrays_each_with_target_sum.py
 │   ├── lc_1510_stone_game_IV.py
+│   ├── lc_1658_minimum_operations_to_reduce_x_to_zero.py
 │   ├── lc_1979_greatest_common_divisor_of_array.py
 │   ├── lc_2069_walking_robot_simulation_II.py
 │   ├── lc_2091_removing_minimum_and_maximum.py
@@ -93,6 +94,7 @@ The repository is organized by topic so related patterns are easy to review toge
 | `arrays/lc_1464_maximum_product_of_two_elements_in_an_array.py` | LeetCode 1464: Maximum Product of Two Elements in an Array |
 | `arrays/lc_1477_find_two_non_overlapping_sub_arrays_each_with_target_sum.py` | LeetCode 1477: Find Two Non-overlapping Sub-arrays Each With Target Sum |
 | `arrays/lc_1510_stone_game_IV.py` | LeetCode 1510: Stone Game IV |
+| `arrays/lc_1658_minimum_operations_to_reduce_x_to_zero.py` | LeetCode 1658: Minimum Operations to Reduce X to Zero |
 | `arrays/lc_1979_greatest_common_divisor_of_array.py` | LeetCode 1979: Find Greatest Common Divisor of Array |
 | `arrays/lc_2069_walking_robot_simulation_II.py` | LeetCode 2069: Walking Robot Simulation II |
 | `arrays/lc_2091_removing_minimum_and_maximum.py` | LeetCode 2091: Removing Minimum and Maximum From Array |
